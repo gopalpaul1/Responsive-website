@@ -1,0 +1,79 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
+.container-margin{
+    margin-top: 100px;
+}
+.background-color{
+    background-color: #FFF9F4;
+    background-size: cover;
+}
+li, h2, h4, h5{
+    color: #363958;
+    font-weight: 900;
+}
+h1, h4, h5, .font-size{
+    font-size: 50px;
+    font-weight: 700;
+}
+.font-size, .para{
+    width: 380px;
+}
+p{
+    color: #3E3E3E;
+}
+
+.content-color{
+    color: #FA804C;
+    background-color: none;
+}
+
+/* all shoes image color and radius */
+.container div .image-card{
+    border-radius: 20px;
+    background-color: #f0eeee;
+
+}
+
+/* Move all card borders and add some items*/
+.container .casual-shoes{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.container .important-column{
+    border: none;
+    border-radius: 20px;
+}
+
+/* Button area highlight */
+.button{
+    background-color: #3D4FF3;
+    border-radius: 5px;
+    padding: 8px 12px
+}
+.button:hover{
+    box-shadow: 5px 5px 20px #7269e9;
+    background-color: #2a39be;
+}
+
+.button img{
+    width: 30px;
+    background-color: #3D4FF3;
+    color: white;
+    margin-right: 5px;
+}
+
+
+.footer-container{
+    background-color: #323940;
+    height: 200px;
+    color: white;
+}
+.footer-container:hover{
+    box-shadow: 5px 5px 20px #828183;
+}
